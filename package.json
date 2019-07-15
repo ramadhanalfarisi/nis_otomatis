@@ -1,0 +1,21 @@
+{
+  "name": "nis_otomatis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "grub_nis",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "orm": "^5.0.2",
+    "pagination": "^0.4.6",
+    "restify": "^7.5.0"
+  }
+}
